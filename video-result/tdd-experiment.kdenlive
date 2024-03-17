@@ -55,6 +55,10 @@
   <property name="length">8620</property>
   <property name="eof">pause</property>
   <property name="resource">/home/execut/GolandProjects/tdd-experiment/video/tdd-way-v2.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">15</property>
@@ -81,10 +85,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">15</property>
@@ -101,19 +101,73 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer id="producer2" in="00:00:00.000" out="00:13:08.867">
+  <property name="length">11834</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/execut/GolandProjects/tdd-experiment/video/tdd-way.mp4</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv444p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">611962</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2024-03-15T17:47:01.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">mp42</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">mp42mp41isomiso2</property>
+  <property name="meta.attr.creation_time.markup">2024-03-15T17:47:01.000000Z</property>
+  <property name="meta.attr.encoder.markup">x264</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="kdenlive:id">4</property>
+  <property name="kdenlive:file_size">60398316</property>
+  <property name="kdenlive:file_hash">81755ae355070fd3b201b42a9189a189</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <playlist id="main_bin">
-  <property name="kdenlive:docproperties.activeTrack">0</property>
+  <property name="kdenlive:docproperties.activeTrack">2</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.audioTarget">-1</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
+  <property name="kdenlive:docproperties.documentid">1710665765655</property>
   <property name="kdenlive:docproperties.enableTimelineZone">0</property>
   <property name="kdenlive:docproperties.enableexternalproxy">0</property>
   <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
+  <property name="kdenlive:docproperties.groups">[
+]
+</property>
   <property name="kdenlive:docproperties.kdenliveversion">21.12.3</property>
-  <property name="kdenlive:docproperties.position">3325</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">/home/execut/.local/share/kdenlive/profiles/customprofile12</property>
@@ -130,17 +184,36 @@
   <property name="kdenlive:docproperties.videoTarget">0</property>
   <property name="kdenlive:docproperties.zonein">11369</property>
   <property name="kdenlive:docproperties.zoneout">11444</property>
-  <property name="kdenlive:docproperties.zoom">15</property>
+  <property name="kdenlive:docproperties.zoom">13</property>
   <property name="kdenlive:expandedFolders"/>
   <property name="kdenlive:documentnotes"/>
-  <property name="kdenlive:docproperties.groups">[
-]
-</property>
+  <property name="kdenlive:docproperties.renderaudioquality">160</property>
+  <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
+  <property name="kdenlive:docproperties.renderendguide">-1</property>
+  <property name="kdenlive:docproperties.renderexportaudio">1</property>
+  <property name="kdenlive:docproperties.renderfield">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">MP4-H264/AAC</property>
+  <property name="kdenlive:docproperties.renderquality">30</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">540</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">960</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderspeed">0</property>
+  <property name="kdenlive:docproperties.renderstartguide">-1</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">/home/execut/Videos/tdd-experiment.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">0</property>
   <property name="xml_retain">1</property>
   <entry producer="producer0" in="00:00:00.000" out="00:12:37.867"/>
   <entry producer="producer1" in="00:00:00.000" out="00:09:34.600"/>
+  <entry producer="producer2" in="00:00:00.000" out="00:13:08.867"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:44:59.733">
+ <producer id="black_track" in="00:00:00.000" out="00:37:42.933">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -149,22 +222,11 @@
   <property name="mlt_image_format">rgba</property>
   <property name="set.test_audio">0</property>
  </producer>
- <producer id="producer2" in="00:00:00.000" out="00:09:34.600">
-  <property name="length">8620</property>
+ <producer id="producer3" in="00:00:00.000" out="00:03:11.467">
+  <property name="length">2873</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/execut/GolandProjects/tdd-experiment/video/tdd-way-v2.mp4</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
+  <property name="resource">3.000000:/home/execut/GolandProjects/tdd-experiment/video/tdd-way-v2.mp4</property>
   <property name="aspect_ratio">1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">3</property>
-  <property name="kdenlive:file_size">45936093</property>
-  <property name="kdenlive:file_hash">5f2d4fd90e471e5b0b53007fe16893d5</property>
-  <property name="xml">was here</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">15</property>
@@ -187,8 +249,19 @@
   <property name="meta.attr.compatible_brands.markup">mp42mp41isomiso2</property>
   <property name="meta.attr.creation_time.markup">2024-03-15T18:11:37.000000Z</property>
   <property name="meta.attr.encoder.markup">x264</property>
+  <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">3</property>
+  <property name="warp_resource">/home/execut/GolandProjects/tdd-experiment/video/tdd-way-v2.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">3</property>
+  <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">15</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -199,16 +272,24 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
  </producer>
  <playlist id="playlist0">
-  <entry producer="producer2" in="00:00:00.000" out="00:09:34.600">
+  <entry producer="producer3" in="00:00:00.000" out="00:03:11.467">
    <property name="kdenlive:id">3</property>
+   <filter id="filter0">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=30 0 940 565 1.000000;00:03:11.467=30 0 940 565 1.000000;00:03:11.533=30</property>
+    <property name="rotation">00:00:00.000=0;00:03:11.467=0;00:03:11.533=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
   </entry>
  </playlist>
  <playlist id="playlist1"/>
- <tractor id="tractor0" in="00:00:00.000" out="00:09:34.600">
+ <tractor id="tractor0" in="00:00:00.000" out="00:03:11.467">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -217,22 +298,84 @@
   <track hide="audio" producer="playlist0"/>
   <track hide="audio" producer="playlist1"/>
  </tractor>
- <producer id="producer3" in="00:00:00.000" out="00:12:37.867">
-  <property name="length">11369</property>
+ <producer id="producer4" in="00:00:00.000" out="00:04:22.933">
+  <property name="length">3945</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/execut/GolandProjects/tdd-experiment/video/clasic-way.movie.mp4</property>
+  <property name="resource">3.000000:/home/execut/GolandProjects/tdd-experiment/video/tdd-way.mp4</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv444p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">611962</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2024-03-15T17:47:01.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">mp42</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">mp42mp41isomiso2</property>
+  <property name="meta.attr.creation_time.markup">2024-03-15T17:47:01.000000Z</property>
+  <property name="meta.attr.encoder.markup">x264</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">3</property>
+  <property name="warp_resource">/home/execut/GolandProjects/tdd-experiment/video/tdd-way.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <entry producer="producer4" in="00:00:00.000" out="00:04:22.867">
+   <property name="kdenlive:id">4</property>
+   <filter id="filter1">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=980 0 940 565 1.000000</property>
+    <property name="rotation">00:00:00.000=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist3"/>
+ <tractor id="tractor1" in="00:00:00.000" out="00:04:22.867">
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+ </tractor>
+ <producer id="producer5" in="00:00:00.000" out="00:04:12.600">
+  <property name="length">3790</property>
+  <property name="eof">pause</property>
+  <property name="resource">3.000000:/home/execut/GolandProjects/tdd-experiment/video/clasic-way.movie.mp4</property>
   <property name="aspect_ratio">1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">2</property>
-  <property name="kdenlive:file_size">39056434</property>
-  <property name="kdenlive:file_hash">f93ce4564a96534505452de28616afdb</property>
-  <property name="xml">was here</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">15</property>
@@ -255,8 +398,19 @@
   <property name="meta.attr.compatible_brands.markup">mp42mp41isomiso2</property>
   <property name="meta.attr.creation_time.markup">2024-03-15T16:55:16.000000Z</property>
   <property name="meta.attr.encoder.markup">x264</property>
+  <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">3</property>
+  <property name="warp_resource">/home/execut/GolandProjects/tdd-experiment/video/clasic-way.movie.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">2</property>
+  <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">15</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -267,32 +421,101 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer6" in="00:00:00.000" out="00:04:12.600">
+  <property name="length">3790</property>
+  <property name="eof">pause</property>
+  <property name="resource">3.000000:/home/execut/GolandProjects/tdd-experiment/video/clasic-way.movie.mp4</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">15</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv444p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">411748</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2024-03-15T16:55:16.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">mp42</property>
+  <property name="meta.attr.minor_version.markup">0</property>
+  <property name="meta.attr.compatible_brands.markup">mp42mp41isomiso2</property>
+  <property name="meta.attr.creation_time.markup">2024-03-15T16:55:16.000000Z</property>
+  <property name="meta.attr.encoder.markup">x264</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">3</property>
+  <property name="warp_resource">/home/execut/GolandProjects/tdd-experiment/video/clasic-way.movie.mp4</property>
+  <property name="mlt_service">timewarp</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="kdenlive:id">2</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">15</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
- <playlist id="playlist2">
-  <entry producer="producer3" in="00:00:00.000" out="00:01:57.067">
+ <playlist id="playlist4">
+  <entry producer="producer5" in="00:00:00.000" out="00:00:39.000">
    <property name="kdenlive:id">2</property>
+   <filter id="filter2">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=9 550 985 540 1.000000</property>
+    <property name="rotation">00:00:00.000=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
   </entry>
-  <entry producer="producer3" in="00:02:55.333" out="00:12:37.867">
+  <entry producer="producer6" in="00:00:58.400" out="00:04:12.533">
    <property name="kdenlive:id">2</property>
+   <filter id="filter3">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:58.400=9 550 985 540 1.000000</property>
+    <property name="rotation">00:00:58.400=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
   </entry>
  </playlist>
- <playlist id="playlist3"/>
- <tractor id="tractor1" in="00:00:00.000" out="00:11:39.667">
+ <playlist id="playlist5"/>
+ <tractor id="tractor2" in="00:00:00.000" out="00:03:53.200">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track"/>
-  <track hide="audio" producer="playlist2"/>
-  <track hide="audio" producer="playlist3"/>
+  <track hide="audio" producer="playlist4"/>
+  <track hide="audio" producer="playlist5"/>
  </tractor>
- <tractor id="tractor2" in="00:00:00.000" out="00:44:59.733">
+ <tractor id="tractor3" in="00:00:00.000" out="00:37:42.933">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
+  <track producer="tractor2"/>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -311,21 +534,30 @@
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter0">
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <filter id="filter4">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter1">
+  <filter id="filter5">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter2">
+  <filter id="filter6">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
