@@ -1,4 +1,7 @@
 # Изучение подходов к разработке
+* [Таблица с данными](https://docs.google.com/spreadsheets/d/1_q9jKfXmUFED1vAkyLDvN53rpjCSpFUUAw77ryrtTEg/edit#gid=0)
+* [Видео эксперимента](https://www.youtube.com/watch?v=IdLSmVK4g_o)
+* [Презентация](https://docs.google.com/presentation/d/1kiOVX1teNQM5lQbTwNbShm_CS_Xtk7cir5LVvX9uoP4/edit#slide=id.g2c391e47d9f_0_1748)
 
 ## Термины
 * Unit тест - проверяет отдельный модуль в изоляции от других
@@ -78,12 +81,6 @@
 Дор = Р * K * Kqa
 Вqan = Изqa + Интqa
 ```
-
-#
-#
-#
-#
-#
 
 ### Сторисы для разработки сервиса discount.
 Я, как пользователь, хочу:
